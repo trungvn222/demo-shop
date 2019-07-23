@@ -1,0 +1,50 @@
+.timer
+{
+	margin-top: 66px;
+}
+.timer li
+{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	margin-right: 10px;
+}
+.timer li:last-child
+{
+	margin-right: 0px;
+}
+.timer_num
+{
+	font-size: 48px;
+	font-weight: 600;
+	color: #fe4c50;
+	margin-top: 10px;
+}
+.timer_unit
+{
+	margin-top: 12px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #51545f;
+}
+
+@media only screen and (max-width: 1199px)
+{
+	.timer li
+	{
+		width: 90px;
+		height: 90px;
+	}
+	.timer_num
+	{
+		font-size: 36px;
+		font-weight: 500;
+	}
+	.timer_unit
+	{
+		margin-top: 5px;
+	}
+	
+}

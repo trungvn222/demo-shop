@@ -1,0 +1,17 @@
+.filter-price-list {
+    &__item {
+        display: inline-block;
+        margin-right: 10px;
+        color: #000;
+        border: 1px solid #000;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+        font-size: 11px;
+        &.active {
+            color: #fff;
+            background: #fe4c50; 
+            font-size: 14px;
+            font-weight: bold;  
+        }
+    }
+}
