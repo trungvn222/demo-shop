@@ -27,7 +27,7 @@ import Benefit from './components/Benefit';
 import { CATEGORY_URI, PRODUCT_DETAIL_URI, CART_URI,REGISTER_URI } from './const/route';
 
 const store = createStore( rootReducer, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
-
+//this is test
 class App extends Component {
     render() {
         return (
